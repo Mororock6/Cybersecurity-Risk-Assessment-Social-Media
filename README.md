@@ -161,8 +161,6 @@ The project applies a layered security model:
 ## 👨‍💻 Authors
 
 * Amer Ashoush
-* Ali Aboela
-* Omar Maher
 
 ---
 
