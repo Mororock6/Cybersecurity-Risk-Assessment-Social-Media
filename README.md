@@ -62,17 +62,23 @@ The analyzed system is a social media platform supporting:
 
 ## 📊 Risk Analysis
 
-Risks were evaluated using:
+### Asset Identification
 
-* Likelihood scale (1–5)
-* Impact scale (1–5)
+![Assets](screenshots/01-assets.png)
 
-Example:
-Risk Score = Likelihood × Impact
+### Risk Register
+
+![Risk Register](screenshots/02-risk-register.png)
+
+### Risk Scoring
+
+![Risk Scoring](screenshots/03-risk-scoring.png)
 
 ---
 
 ## 🛡️ Risk Treatment
+
+![Mitigation](screenshots/04-mitigation.png)
 
 | Risk | Treatment                              |
 | ---- | -------------------------------------- |
@@ -86,7 +92,11 @@ Risk Score = Likelihood × Impact
 
 ---
 
-## 🔧 Implemented Controls
+## 🔧 Control Implementation
+
+![Controls](screenshots/05-controls.png)
+
+Implemented controls include:
 
 * Data Encryption
 * Multi-Factor Authentication (MFA)
@@ -99,22 +109,34 @@ Risk Score = Likelihood × Impact
 
 ---
 
+## 🔗 Asset-Control Mapping
+
+### User Database Mapping
+
+![DB Mapping](screenshots/06-mapping-db.png)
+
+### Web Application Mapping
+
+![Web Mapping](screenshots/07-mapping-web.png)
+
+---
+
 ## 🧱 Security Approach
 
-The project applies a **layered security model**:
+The project applies a layered security model:
 
-* Identity & Access Layer → MFA, RBAC
-* Application Layer → Input Validation, WAF
-* Data Layer → Encryption
-* Monitoring Layer → Logging, SIEM
-* Perimeter Layer → DDoS Protection
+* Identity & Access → MFA, RBAC
+* Application → Input Validation, WAF
+* Data → Encryption
+* Monitoring → Logging, SIEM
+* Perimeter → DDoS Protection
 
 ---
 
 ## 🛠️ Tools Used
 
-* SimpleRisk (Risk Management Platform)
-* LaTeX (Report Formatting)
+* SimpleRisk
+* LaTeX
 
 ---
 
@@ -129,24 +151,11 @@ The project applies a **layered security model**:
 
 ---
 
-## 📸 Screenshots
-
-Screenshots from SimpleRisk demonstrate:
-
-* Asset creation
-* Risk register
-* Risk scoring
-* Mitigation entries
-* Control implementation
-* Asset-control mapping
-
----
-
 ## 🎯 Key Takeaways
 
-* Structured risk management is essential for modern systems
-* Mapping risks to controls ensures effective mitigation
-* Layered security improves resilience
+* Structured risk management improves system security
+* Mapping risks to controls ensures proper mitigation
+* Layered defense strengthens resilience
 
 ---
 
