@@ -145,7 +145,6 @@ The project applies a layered security model:
 ```
 ├── report/
 ├── screenshots/
-├── latex/
 └── README.md
 ```
 
